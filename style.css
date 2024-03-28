@@ -18,7 +18,7 @@
         left: 650px;
         position: absolute;
         text-align: center;
-        font-size: 25px;
+        font-size: 2px;
     }
     #topnav {
         position: absolute;
@@ -53,54 +53,84 @@
        width: 250px;
        height: 55px;
       }
-      .content3{
-        display: flex;
-        flex-wrap: wrap;
-       }
-       #india{
+      #heading{
+        position: absolute;
+        top: -30px;
+        left: 50px;
+        background-color:  #0F4B24;
+        width: 1700px;
+        height: 40px;
         text-align: center;
-       }
-       .content4{
-        display: flex;
-      flex-wrap: wrap;
-       }
-       #content5{
-        max-width: 40%;
-        height: 30%;
-       }
-      .content6{
-        border: solid;
+        color:white;
+        font-size: 20px;
       }
-      #para{
+      #rasi{
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        font-size: 25px;
+        color: white;
+      }
+      #chair2{
+        position: absolute;
+        top: 80px;
+        left: 1500px;
+        width: 40px;
+      }
+    h3::before{
+    content: "";
+    display: block;
+    width: 1600px;
+    height: 2px;
+    background: black;
+    position: absolute;
+    left: 40px;
+    }
+    #heading4{
         text-align: center;
-      }
-      #buttons{
+        font-size: 22px;
+    }
+    #line::before{
+        content: "";
+        display: block;
+        width: 1600px;
+        height: 2px;
+        background: black;
+        position: absolute;
+        left: 40px;
+    }
+    #bedimg{
+        width: 500px;
+        height: 500px;
+    }
+    #page2{
+        display: grid;
+        grid-template-columns: 50% 50%;
+       }
+       #paragraph2{
+        font-size: 25px;
+       }
+    
+    
+    
+       #picsa{
         display: flex;
-        flex-wrap: wrap;
-      }
-      #but{
-        width: 10%;
-        border-radius: 12px;
-      }
-      #butt{
-        width: 100%;
-        height: 30%;
-        border-radius: 12px;
-      }
-      .palete{
-        display: flex;
-        flex-wrap: wrap;
-      }
-      #can{
-        display: flex;
-        flex-wrap: wrap;
-      }
-      #pop{
-        font-size: xx-large;
-      }
-      #slant{
-        rotate: 20%;
-      }
+        gap: 3%;
+    }
+    .pic{
+        width: 500px;
+        height: 600px;
+        border-radius: 10px;
+    }
+    #bigpic{
+        width: 900px;
+        height: 800px
+    }
+    #picsb{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
 
  .callicon1{
     display: flex;
